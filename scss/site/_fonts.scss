@@ -1,0 +1,107 @@
+@font-face {
+	font-family: 'EngschriftStd';
+	src: url('../assets/fonts/DIN/DINEngschriftStd.eot');
+	src: local('☺'), url('../assets/fonts/DIN/DINEngschriftStd.woff') format('woff'), url('../assets/fonts/DIN/DINEngschriftStd.ttf') format('truetype'), url('../assets/fonts/DIN/DINEngschriftStd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MittelschriftStd';
+	src: url('../assets/fonts/DIN/DINMittelschriftStd.eot');
+	src: local('☺'), url('../assets/fonts/DIN/DINMittelschriftStd.woff') format('woff'), url('../assets/fonts/DIN/DINMittelschriftStd.ttf') format('truetype'), url('../assets/fonts/DIN/DINMittelschriftStd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NeuzeitGroteskStd-BdCond';
+	src: url('../assets/fonts/DIN/DINNeuzeitGroteskStd-BdCond.eot');
+	src: local('☺'), url('../assets/fonts/DIN/DINNeuzeitGroteskStd-BdCond.woff') format('woff'), url('../assets/fonts/DIN/DINNeuzeitGroteskStd-BdCond.ttf') format('truetype'), url('../assets/fonts/DIN/DINNeuzeitGroteskStd-BdCond.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NeuzeitGroteskStd-Light';
+	src: url('../assets/fonts/DIN/DINNeuzeitGroteskStd-Light.eot');
+	src: local('☺'), url('../assets/fonts/DIN/DINNeuzeitGroteskStd-Light.woff') format('woff'), url('../assets/fonts/DIN/DINNeuzeitGroteskStd-Light.ttf') format('truetype'), url('../assets/fonts/DIN/DINNeuzeitGroteskStd-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DINPro Black';
+	src: url('../assets/fonts/DIN/DINPro-Black.eot');
+	src: local('☺'), url('../assets/fonts/DIN/DINPro-Black.woff') format('woff'), url('../assets/fonts/DIN/DINPro-Black.ttf') format('truetype'), url('../assets/fonts/DIN/DINPro-Black.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DINPro Bold';
+	src: url('../assets/fonts/DIN/DINPro-Bold.eot');
+	src: local('☺'), url('../assets/fonts/DIN/DINPro-Bold.woff') format('woff'), url('../assets/fonts/DIN/DINPro-Bold.ttf') format('truetype'), url('../assets/fonts/DIN/DINPro-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DINPro Light';
+	src: url('../assets/fonts/DIN/DINPro-Light.eot');
+	src: local('☺'), url('../assets/fonts/DIN/DINPro-Light.woff') format('woff'), url('../assets/fonts/DIN/DINPro-Light.ttf') format('truetype'), url('../assets/fonts/DIN/DINPro-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DINPro Medium';
+	src: url('../assets/fonts/DIN/DINPro-Medium.eot');
+	src: local('☺'), url('../assets/fonts/DIN/DINPro-Medium.woff') format('woff'), url('../assets/fonts/DIN/DINPro-Medium.ttf') format('truetype'), url('../assets/fonts/DIN/DINPro-Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DINPro Regular';
+	src: url('../assets/fonts/DIN/DINPro-Regular.eot');
+	src: local('☺'), url('../assets/fonts/DIN/DINPro-Regular.woff') format('woff'), url('../assets/fonts/DIN/DINPro-Regular.ttf') format('truetype'), url('../assets/fonts/DIN/DINPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.engschrift {
+	font-family: 'EngschriftStd';
+}
+
+.mittelschrift {
+	font-family: 'MittelschriftStd';
+}
+
+.neuzeitgroteskstdbdcond {
+	font-family: 'NeuzeitGroteskStd-BdCond';
+}
+
+.neuzeitgroteskstdlight {
+	font-family: 'NeuzeitGroteskStd-Light';
+}
+
+.dinproblack {
+	font-family: 'DINPro Black';
+}
+
+.dinprobold {
+	font-family: 'DINPro Bold';
+}
+
+.dinprolight {
+	font-family: 'DINPro Light';
+}
+
+.dinpromedium {
+	font-family: 'DINPro Medium';
+}
+
+.dinproregular {
+	font-family: 'DINPro Regular';
+}

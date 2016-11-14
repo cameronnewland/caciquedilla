@@ -1,0 +1,45 @@
+.homepage_recipes_recipe .recipes_color_overlay {
+	display:none;
+	div {
+		display:inline-block;
+		text-align:center;
+		img, div {
+			display:block;
+			clear:both;
+			color:$white;
+		}
+		img {
+			margin: 0 auto 8px;
+			max-height:50px;
+			max-width:50px;
+			@media #{$large-up}{
+				max-height:none;
+				max-width:none;
+			}
+		}
+		.recipes-recipe-title {
+			font-family: 'DINPro Bold';
+			font-size:30px;
+		}
+		.recipes-view-recipe {
+			font-family: 'DINPro Medium';
+			font-size:18px;
+			line-height:100%;
+			span {
+				display:inline-block;
+				margin-left:5px;
+				height:18px;
+				width:8px;
+				background-image:url('../assets/img/recipes/arrow-right.png');
+				background-repeat:no-repeat;
+				background-position:bottom center;
+			}
+		}
+	}
+}
+
+.homepage_recipes_recipe:hover .recipes_color_overlay {
+	display:block;
+	display:flex;
+	background-color:rgba(50,58,69,0.8);
+}

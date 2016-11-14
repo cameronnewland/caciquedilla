@@ -1,0 +1,107 @@
+.quesadilla-101-hero {
+	background-image: url(../assets/img/quesadilla-101/hero-bg.jpg);
+	padding-top:120%;
+	@media #{$large-up}{
+		padding-top:30%;
+	}
+	h1 {
+		text-shadow: none;
+		opacity:0.8;
+		font-size:30px;
+		@media #{$large-up}{
+			font-size:120px;
+		}
+	}
+}
+
+.history-of-the-quesadilla {
+	padding:30px 0;
+	h2 {
+		text-shadow:none;
+	}
+	p {
+		font-size:16px;
+	}
+	.relative-block {
+		overflow:visible;
+	}
+	.right-image {
+		@media #{$large-up}{
+			position:absolute;
+			left:0;
+			top:-150px;
+			width:100%;
+			height:auto;
+			max-width:none;
+		}
+	}
+}
+
+.how-to-make-a-quesadilla {
+	.how-to-heading {
+		padding:25px 0;
+	}
+	.down-arrow-container {
+		height:0;
+		overflow:visible;
+	}
+	.down-arrow {
+		background-image: url(../assets/img/quesadilla-101/down-arrow.png);
+		background-repeat:no-repeat;
+		background-size:contain;
+		background-position:top center;
+		display:inline-block;
+		height:24px;
+		width:29px;
+	}
+}
+
+.quesadilla-panel {
+	display:block;
+	padding-top:125%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	@media #{$large-up}{
+		padding-top:41.666666667%;
+	}
+	&.panel-1 {
+		background-image:url(../assets/img/quesadilla-101/step-1.jpg);
+	}
+	&.panel-2 {
+		background-image:url(../assets/img/quesadilla-101/step-2.jpg);
+		background-position:right center;
+	}
+	&.panel-3 {
+		background-image:url(../assets/img/quesadilla-101/step-3.jpg);
+	}
+	&.panel-4 {
+		background-image:url(../assets/img/quesadilla-101/step-4.jpg);
+		background-position:right center;
+	}
+	&.panel-5 {
+		background-image:url(../assets/img/quesadilla-101/step-5.jpg);
+	}
+	&.panel-6 {
+		background-image:url(../assets/img/quesadilla-101/step-6.jpg);
+		background-position:right center;
+	}
+	&.panel-7 {
+		background-image:url(../assets/img/quesadilla-101/step-7.jpg);
+	}
+	&.panel-8 {
+		background-image:url(../assets/img/quesadilla-101/step-8.jpg);
+		background-position:right center;
+	}
+	h3, p {
+		color:$white;
+	}
+	h3 {
+		text-transform:uppercase;
+	}
+	p {
+		font-size:14px;
+		@media #{$large-up}{
+			font-size:20px;
+		}
+	}
+}
